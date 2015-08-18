@@ -13,6 +13,6 @@ class authconfig::params () {
   $nis_services       = ['ypbind']
   $services           = []
   $cache_services     = ['nscd']
-  $ldap_services      = ['oddjobd', 'nslcd']
+  $ldap_services      = ['nslcd']
 
 }
