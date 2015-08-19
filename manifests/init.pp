@@ -47,7 +47,7 @@ class authconfig (
   $preferdns      = false,
 ) inherits authconfig::params {
 
-if $i::fqdn != "filedrop.nasbagw.int" {
+if $::fqdn != "filedrop.nasbagw.int" {
   case $::osfamily {
 
     'RedHat' : {
